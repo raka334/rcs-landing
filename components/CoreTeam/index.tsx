@@ -17,27 +17,10 @@ function CoreTeam() {
                     </div>
                     <div className="links flex gap-4">
                         <a href="">
-                            <Linkedin width={40} height={40} />
+                            <Linkedin width={28} height={28} />
                         </a>
                         <a href="">
-                            <GitHub width={40} height={40} />
-                        </a>
-                    </div>
-                </div>
-                <div className="flex flex-col gap-5 items-center px-5">
-                    <div className="w-full aspect-square border-primary border-2 rounded-full overflow-hidden">
-                        <img
-                            src="/profile.jpg"
-                            alt=""
-                            className="w-full h-full object-cover"
-                        />
-                    </div>
-                    <div className="links flex gap-4">
-                        <a href="">
-                            <Linkedin width={40} height={40} />
-                        </a>
-                        <a href="">
-                            <GitHub width={40} height={40} />
+                            <GitHub width={28} height={28} />
                         </a>
                     </div>
                 </div>
@@ -51,10 +34,10 @@ function CoreTeam() {
                     </div>
                     <div className="links flex gap-4">
                         <a href="">
-                            <Linkedin width={40} height={40} />
+                            <Linkedin width={28} height={28} />
                         </a>
                         <a href="">
-                            <GitHub width={40} height={40} />
+                            <GitHub width={28} height={28} />
                         </a>
                     </div>
                 </div>
@@ -68,10 +51,27 @@ function CoreTeam() {
                     </div>
                     <div className="links flex gap-4">
                         <a href="">
-                            <Linkedin width={40} height={40} />
+                            <Linkedin width={28} height={28} />
                         </a>
                         <a href="">
-                            <GitHub width={40} height={40} />
+                            <GitHub width={28} height={28} />
+                        </a>
+                    </div>
+                </div>
+                <div className="flex flex-col gap-5 items-center px-5">
+                    <div className="w-full aspect-square border-primary border-2 rounded-full overflow-hidden">
+                        <img
+                            src="/profile.jpg"
+                            alt=""
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
+                    <div className="links flex gap-4">
+                        <a href="">
+                            <Linkedin width={28} height={28} />
+                        </a>
+                        <a href="">
+                            <GitHub width={28} height={28} />
                         </a>
                     </div>
                 </div>

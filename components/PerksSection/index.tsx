@@ -2,7 +2,7 @@ import React from 'react'
 
 function PerksSection() {
     return (
-        <section className="flex flex-col h-screen justify-between">
+        <section className="flex flex-col h-screen justify-between pt-24">
             <div className="perksCard p-10 text-black bg-white flex gap-5 max-w-xl ml-auto">
                 <div className="text-7xl font-semibold">01</div>
                 <div className="">
