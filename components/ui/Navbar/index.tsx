@@ -5,36 +5,28 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 import { cn } from '@/lib/utils'
-
-const user = {
-    name: 'Tom Cook',
-    email: 'tom@example.com',
-    imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-}
 const navigation = [
-    { name: 'Dashboard', href: '#', current: true },
-    { name: 'Team', href: '#', current: false },
-    { name: 'Projects', href: '#', current: false },
-    { name: 'Calendar', href: '#', current: false },
-    { name: 'Reports', href: '#', current: false },
-]
-const userNavigation = [
-    { name: 'Your Profile', href: '#' },
-    { name: 'Settings', href: '#' },
-    { name: 'Sign out', href: '#' },
+    { name: 'Home', href: '#', current: true },
+    { name: 'Blog', href: '#', current: false },
+    { name: 'Playground', href: '#', current: false },
+    { name: 'Join Discord', href: '#', current: false },
 ]
 
 const Navbar = () => {
     return (
-        <Disclosure as="nav" className="fixed w-screen top-0 left-0 z-10 bg-background lg:border-b-2 border-primary">
+        <Disclosure
+            as="nav"
+            className="fixed w-screen top-0 left-0 z-10 bg-background lg:border-b-2 border-primary"
+        >
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8 w-full lg:py-4">
                         <div className="relative flex h-16 items-center justify-between w-full">
                             <div className="flex items-center px-2 lg:px-0 w-full">
                                 <div className="shrink-0">
-                                    <h1 className='text-3xl font-bold'>RCS CTF 2024</h1>
+                                    <h1 className="text-3xl font-bold">
+                                        RCS CTF 2024
+                                    </h1>
                                 </div>
                                 <div className="hidden lg:ml-auto lg:block">
                                     <div className="flex space-x-4">
@@ -57,10 +49,20 @@ const Navbar = () => {
                                                         : undefined
                                                 }
                                             >
-                                                {item.current && <span className='h-2 w-2 border-2 border-primary block'></span>}
+                                                {item.current && (
+                                                    <span className="h-2 w-2 border-2 border-primary block"></span>
+                                                )}
                                                 {item.name}
                                             </a>
                                         ))}
+                                        <a
+                                            href={'#'}
+                                            className={
+                                                'px-3 py-2 text-xl flex items-center gap-2 bg-white text-black'
+                                            }
+                                        >
+                                            Register
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -108,6 +110,15 @@ const Navbar = () => {
                                     {item.name}
                                 </Disclosure.Button>
                             ))}
+                            <Disclosure.Button
+                                as="a"
+                                href="#"
+                                className={cn(
+                                    'block px-3 py-2 text-base font-medium bg-white text-black'
+                                )}
+                            >
+                                Register
+                            </Disclosure.Button>
                         </div>
                     </Disclosure.Panel>
                 </>
