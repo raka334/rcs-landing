@@ -6,7 +6,7 @@ import Navbar from '@/components/ui/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-    title: 'Nextjs 13, TailwindCss Template',
+    title: 'RCS CTF 2024',
     description:
         'A template for frontend developers created By Chirag Bhalotia',
 }
