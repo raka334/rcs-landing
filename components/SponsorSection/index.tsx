@@ -5,6 +5,7 @@ import sponsorsData from './sponsors.json'
 type Sponsor = {
     name: string
     logo: string
+    url: string
 }
 
 type SponsorCategory = {

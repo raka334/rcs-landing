@@ -27,11 +27,6 @@ export default function Home() {
                     In the heartbeat of technology, our rallying cry is clear: &quot;Decrypt, Defend, Conquer.&quot;
                     More than a Capture The Flag event, this is a journey into cybersecurity, where offense and defense converge.
                     </p>
-                    {/* <p>
-                        Lorem ipsum dolor sit amet, con- sectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        dolore magna aliquam erat volutpat. Ut wisi enim ad
-                    </p> */}
                 </div>
                 <div className="mt-10 text-xl flex items-center gap-3">
                     <PlayCircleIcon
@@ -42,9 +37,9 @@ export default function Home() {
                     REGISTER NOW
                 </div>
             </section>
-            <TicketSection />
             <PerksSection />
             <VenueDate />
+            <TicketSection />
             <SponsorSection />
             <CoreTeam />
         </main>
