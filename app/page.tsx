@@ -1,3 +1,4 @@
+import SponsorSection from '@/components/SponsorSection'
 import CoreTeam from '@/components/CoreTeam'
 import PerksSection from '@/components/PerksSection'
 import TicketSection from '@/components/TicketSection'
@@ -37,6 +38,7 @@ export default function Home() {
             <TicketSection />
             <PerksSection />
             <VenueDate />
+            <SponsorSection />
             <CoreTeam />
         </main>
     )

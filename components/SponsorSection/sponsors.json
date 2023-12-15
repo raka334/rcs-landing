@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Platinum Sponsors",
+    "sponsors": [
+      { "name": "Popsicle", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png" },
+      { "name": "More Popsicles", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png" },
+      { "name": "Even More Popsicles", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png" }
+    ]
+  },
+  {
+    "category": "Gold Sponsors",
+    "sponsors": [
+      { "name": "Pppp Popsicles!", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png" },
+      { "name": "Popsicles!!!!", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png" },
+      { "name": "Nevermind, it's PopSQL", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png" }
+    ]
+  }
+]
