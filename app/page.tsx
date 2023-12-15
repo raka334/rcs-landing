@@ -14,17 +14,24 @@ export default function Home() {
                     REPUBLIC OF <br />
                     <span className="text-primary">CYBER SENTINELS CTF</span>
                 </h1>
+                <h2 className='text-3xl font-bold pt-3'>
+                Decrypt, Defend, Conquer <br /> 
+                <span>
+                    Cyber Sentinels at the Helm
+                </span>
+
+                </h2>
                 <div className="paras max-w-xl flex gap-8 py-8">
                     <p>
+                    Welcome to the Cyber Sentinels CTF, where digital warriors embrace the challenge. 
+                    In the heartbeat of technology, our rallying cry is clear: &quot;Decrypt, Defend, Conquer.&quot;
+                    More than a Capture The Flag event, this is a journey into cybersecurity, where offense and defense converge.
+                    </p>
+                    {/* <p>
                         Lorem ipsum dolor sit amet, con- sectetuer adipiscing
                         elit, sed diam nonummy nibh euismod tincidunt ut laoreet
                         dolore magna aliquam erat volutpat. Ut wisi enim ad
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, con- sectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        dolore magna aliquam erat volutpat. Ut wisi enim ad
-                    </p>
+                    </p> */}
                 </div>
                 <div className="mt-10 text-xl flex items-center gap-3">
                     <PlayCircleIcon
