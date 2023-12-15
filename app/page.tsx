@@ -23,7 +23,7 @@ export default function Home() {
                 <div className="paras max-w-xl flex gap-8 py-8">
                     <p>
                     Welcome to the Cyber Sentinels CTF, where digital warriors embrace the challenge. 
-                    In the heartbeat of technology, our rallying cry is clear: "Decrypt, Defend, Conquer."
+                    In the heartbeat of technology, our rallying cry is clear: &quot;Decrypt, Defend, Conquer.&quot;
                     More than a Capture The Flag event, this is a journey into cybersecurity, where offense and defense converge.
                     </p>
                     {/* <p>
