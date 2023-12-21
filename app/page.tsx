@@ -3,7 +3,6 @@ import CoreTeam from '@/components/CoreTeam'
 import PerksSection from '@/components/PerksSection'
 import TicketSection from '@/components/TicketSection'
 import VenueDate from '@/components/VenueDate'
-import Button from '@/components/ui/Button'
 import { PlayCircleIcon } from '@heroicons/react/24/outline'
 
 export default function Home() {
