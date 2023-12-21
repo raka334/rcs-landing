@@ -8,7 +8,7 @@ import { PlayCircleIcon } from '@heroicons/react/24/outline'
 
 export default function Home() {
     return (
-        <main className=" ">
+        <main className="text-text ">
             <section className="flex flex-col min-h-screen lg:h-screen max-w-7xl mx-auto px-4 lg:px-8 pt-18 justify-center bg-background p-2">
                 <h1 className="text-5xl lg:text-6xl font-bold">
                     REPUBLIC OF <br />
