@@ -1,6 +1,6 @@
 import React from 'react'
 import SponsorsRow from './SponsorsRow'
-import sponsorsData from './sponsors.json'
+import sponsorsData from '@/config/sponsors.json'
 
 type Sponsor = {
     name: string

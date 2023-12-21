@@ -1,0 +1,26 @@
+[
+    {
+        "name": "John Doe",
+        "img": "/profile.jpg",
+        "linkedin": "https://www.linkedin.com/in/chiragbhalotia/",
+        "github": "https://github.com/chirag3003"
+    },
+    {
+        "name": "Jane Smith",
+        "img": "/profile.jpg",
+        "linkedin": "https://www.linkedin.com/in/chiragbhalotia/",
+        "github": "https://github.com/chirag3003"
+    },
+    {
+        "name": "Alex Johnson",
+        "img": "/profile.jpg",
+        "linkedin": "https://www.linkedin.com/in/chiragbhalotia/",
+        "github": "https://github.com/chirag3003"
+    },
+    {
+        "name": "Sarah Williams",
+        "img": "/profile.jpg",
+        "linkedin": "https://www.linkedin.com/in/chiragbhalotia/",
+        "github": "https://github.com/chirag3003"
+    }
+]
