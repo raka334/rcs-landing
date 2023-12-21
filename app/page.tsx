@@ -9,12 +9,12 @@ import { PlayCircleIcon } from '@heroicons/react/24/outline'
 export default function Home() {
     return (
         <main className=" ">
-            <section className="flex flex-col h-screen max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 justify-center bg-background p-2">
-                <h1 className="text-6xl font-bold">
+            <section className="flex flex-col min-h-screen lg:h-screen max-w-7xl mx-auto px-4 lg:px-8 pt-18 justify-center bg-background p-2">
+                <h1 className="text-5xl lg:text-6xl font-bold">
                     REPUBLIC OF <br />
                     <span className="text-primary">CYBER SENTINELS CTF</span>
                 </h1>
-                <h2 className='text-3xl font-bold pt-3'>
+                <h2 className='text-2xl lg:text-3xl font-bold pt-3'>
                 Decrypt, Defend, Conquer <br /> 
                 <span>
                     Cyber Sentinels at the Helm
