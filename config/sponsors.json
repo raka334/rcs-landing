@@ -2,17 +2,17 @@
   {
     "category": "Platinum Sponsors",
     "sponsors": [
-      { "name": "Popsicle", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png", "url": "https://popsql.com" },
-      { "name": "More Popsicles", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png", "url": "https://popsql.com" },
-      { "name": "Even More Popsicles", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png", "url": "https://popsql.com" }
+      { "name": "Popsicle", "logo": "./popsql.png", "url": "https://popsql.com" },
+      { "name": "More Popsicles", "logo": "./popsql.png", "url": "https://popsql.com" },
+      { "name": "Even More Popsicles", "logo": "./popsql.png", "url": "https://popsql.com" }
     ]
   },
   {
     "category": "Gold Sponsors",
     "sponsors": [
-      { "name": "Pppp Popsicles!", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png", "url": "https://popsql.com" },
-      { "name": "Popsicles!!!!", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png", "url": "https://popsql.com" },
-      { "name": "Nevermind, it's PopSQL", "logo": "https://popsql.com/static/homepage/popsql_app_icon.png", "url": "https://popsql.com" }
+      { "name": "Pppp Popsicles!", "logo": "./popsql.png", "url": "https://popsql.com" },
+      { "name": "Popsicles!!!!", "logo": "./popsql.png", "url": "https://popsql.com" },
+      { "name": "Nevermind, it's PopSQL", "logo": "./popsql.png", "url": "https://popsql.com" }
     ]
   }
 ]

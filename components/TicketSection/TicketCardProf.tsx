@@ -21,7 +21,7 @@ function TicketCard() {
                     <p> - Conference Attendee Certificate</p>
               </div>
           </div>
-          <div className="button">
+          <div className="button mt-8">
               <Button size={'full'}>Rs. 400</Button>
           </div>
       </div>
