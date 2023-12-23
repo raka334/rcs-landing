@@ -23,7 +23,7 @@ function TicketCard() {
               </div>
           </div>
           <div className="button mt-8">
-              <Button size={'full'}>Rs. 200</Button>
+              <Button size={'full'}>Coming Soon</Button>
           </div>
       </div>
   )

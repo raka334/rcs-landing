@@ -1,6 +1,8 @@
 import SponsorSection from '@/components/SponsorSection'
 import CoreTeam from '@/components/CoreTeam'
+import CommunityPartners from '@/components/CommunityPartners'
 import PerksSection from '@/components/PerksSection'
+import RersourcePersons from '@/components/ResourcePersons'
 import TicketSection from '@/components/TicketSection'
 import VenueDate from '@/components/VenueDate'
 import { PlayCircleIcon } from '@heroicons/react/24/outline'
@@ -47,8 +49,10 @@ export default function Home() {
             <PerksSection />
             <VenueDate />
             <TicketSection />
-            <SponsorSection />
+            {/* <SponsorSection /> */}
             <CoreTeam />
+            <RersourcePersons />
+            <CommunityPartners />
         </main>
     )
 }
