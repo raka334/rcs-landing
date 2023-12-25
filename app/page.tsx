@@ -10,7 +10,7 @@ import { PlayCircleIcon } from '@heroicons/react/24/outline'
 export default function Home() {
     return (
         <main className="text-text ">
-            <section className="flex relative flex-col min-h-screen lg:h-screen max-w-7xl mx-auto px-4 lg:px-8 pt-18 justify-center bg-background p-2">
+            <section className="flex relative flex-col min-h-screen lg:h-screen max-w-7xl mx-auto px-4 lg:px-8 pt-18 justify-center p-2">
                 <h1 className="text-5xl lg:text-6xl font-bold">
                     REPUBLIC OF <br />
                     <span className="text-primary">CYBER SENTINELS CTF</span>
@@ -46,6 +46,14 @@ export default function Home() {
                     </p>
                 </div>
             </section>
+            <video
+                className="w-full h-screen absolute top-0 -z-10 object-cover"
+                src="https://safe.b68dev.xyz/iDyatDbb.mp4"
+                autoPlay
+                loop
+                muted
+            />
+
             <PerksSection />
             <VenueDate />
             <TicketSection />
