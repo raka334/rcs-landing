@@ -6,7 +6,7 @@ import { Bars3Icon, BellIcon, XMarkIcon,HomeIcon } from '@heroicons/react/24/out
 
 import { cn } from '@/lib/utils'
 const navigation = [
-    { name: 'Join Discord', href: 'https://discord.com/invite/hmEKbXu9C3', current: false },
+    { name: 'Join Discord', href: 'https://s.encryptedge.in/discord', current: false },
 ]
 
 const Navbar = () => {
