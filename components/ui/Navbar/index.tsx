@@ -6,10 +6,7 @@ import { Bars3Icon, BellIcon, XMarkIcon,HomeIcon } from '@heroicons/react/24/out
 
 import { cn } from '@/lib/utils'
 const navigation = [
-    { name: 'Home', href: '#', current: true , icon:<HomeIcon className='h-5 w-5' /> },
-    { name: 'Blog', href: '#', current: false },
-    { name: 'Playground', href: '#', current: false },
-    { name: 'Join Discord', href: 'https://discord.com/invite/5T2HurwDev', current: false },
+    { name: 'Join Discord', href: 'https://discord.com/invite/hmEKbXu9C3', current: false },
 ]
 
 const Navbar = () => {
@@ -53,7 +50,6 @@ const Navbar = () => {
                                                 {item.current && (
                                                     <span className="h-2 w-2 border-2 border-primary block"></span>
                                                 )}
-                                                {item.icon}
                                                 {item.name}
                                             </a>
                                         ))}
@@ -64,7 +60,7 @@ const Navbar = () => {
                                                 'px-3 py-2 text-xl flex items-center gap-2 bg-white text-black hover:bg-black hover:text-white hover:border-white hover:ring-1 hover:ring-white focus:ring-1 focus:ring-white'
                                             }
                                         >
-                                            Register
+                                            Register Interest
                                         </a>
                                     </div>
                                 </div>

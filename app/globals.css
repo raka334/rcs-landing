@@ -6,7 +6,17 @@
 
 @font-face {
     font-family: "Glitch";
-    src: url("./glitchFont/glitch.ttf");
+    src: url("/glitch.ttf");
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("/Minecraft.woff2");
+}
+
+@font-face {
+    font-family: "MinecraftBold";
+    src: url("/MinecraftBold.woff2");
 }
 
 :root {
@@ -21,7 +31,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rethink Sans', sans-serif;
+    font-family: 'Minecraft', sans-serif;
 }
 
 .glitch {
