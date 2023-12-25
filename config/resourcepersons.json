@@ -1,5 +1,25 @@
 [
     {
+        "name": "Dr. Lovi Raj Gupta",
+        "img": "/rp-dr-lovi-raj.jpg",
+        "linkedin": "https://www.linkedin.com/in/loviraj/"
+    },
+    {
+        "name": "Dr. Rajeev Sobti",
+        "img": "/rp-rajeev-sobti.jpg",
+        "linkedin": "https://www.linkedin.com/company/scselpu"
+    },
+    {
+        "name": "Mr. Sami Anand",
+        "img": "/rp-sami.jpg",
+        "linkedin": "https://www.linkedin.com/in/sami-anand/"
+    },
+    {
+        "name": "Dr. Harvant Singh Arri",
+        "img": "/rp-harvant-singh.jpg",
+        "linkedin": "https://www.linkedin.com/in/harwant-singh-arri-510866120/"
+    },
+    {
         "name": "Dr. Vinay Bharadwaj",
         "img": "/rp-vinay-bharadwaj.jpeg",
         "linkedin": "https://www.linkedin.com/in/dr-vinay-bhardwaj-945752224/"
@@ -8,11 +28,6 @@
         "name": "Harpreet Kaur",
         "img": "/rp-harpreet-kaur.jpeg",
         "linkedin": "https://www.linkedin.com/in/harpreet-kaur-94687aa0/"
-    },
-    {
-        "name": "Dr. Harvant Singh Arri",
-        "img": "/rp-harvant-singh.jpg",
-        "linkedin": "https://www.linkedin.com/in/harwant-singh-arri-510866120/"
     },
     {
         "name": "Parambir Singh",

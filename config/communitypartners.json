@@ -1,8 +1,20 @@
 [
     {
-        "name": "GDSC Lovely Professional University",
-        "img": "/cp-gdsclpu.png",
+        "name": "GDSC LPU",
+        "img": "/cp-gdsc-lpu.png",
         "linkedin": "https://in.linkedin.com/company/gdsclpu",
         "github": "https://github.com/gdsclpu"
+    },
+    {
+        "name": "TFUG Jalandhar",
+        "img": "/cp-tfug-jalandhar.png",
+        "linkedin": "https://in.linkedin.com/company/tfugjalandhar",
+        "github": "https://github.com/tfugjalandhar"
+    },
+    {
+        "name": "CNCF Jalandhar",
+        "img": "/cp-cncf-jalandhar.png",
+        "linkedin": "https://in.linkedin.com/company/cncfjalandhar",
+        "github": "https://community.cncf.io/cloud-native-jalandhar/"
     }
 ]
