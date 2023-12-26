@@ -33,7 +33,7 @@ export default function RegisterDialog({
         //api call
         try {
             await axios.post(
-                'https://emerald-informed-promoted-dem.trycloudflare.com/interest',
+                process.env.NEXT_PUBLIC_API_URL + '/interest',
                 data
             )
             toast.success('Successfully Submitted Form')
