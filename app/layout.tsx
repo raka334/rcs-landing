@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
 import Navbar from '@/components/ui/Navbar'
 import FooterSection from '@/components/FooterSection'
+import RegisterDialog from '@/components/RegisterDialog';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -67,6 +68,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 {children}
                 <FooterSection />
                 <Analytics />
+                {/* <RegisterDialog /> */}
             </body>
         </html>
     )
