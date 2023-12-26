@@ -3,18 +3,24 @@
         "name": "GDSC LPU",
         "img": "/cp-gdsc-lpu.png",
         "linkedin": "https://in.linkedin.com/company/gdsclpu",
-        "github": "https://github.com/gdsclpu"
+        "links": "https://gdsc.community.dev/lovely-professional-university-jalandhar/"
     },
     {
         "name": "TFUG Jalandhar",
         "img": "/cp-tfug-jalandhar.png",
         "linkedin": "https://in.linkedin.com/company/tfugjalandhar",
-        "github": "https://github.com/tfugjalandhar"
+        "links": "https://github.com/tfugjalandhar"
     },
     {
         "name": "CNCF Jalandhar",
         "img": "/cp-cncf-jalandhar.png",
         "linkedin": "https://in.linkedin.com/company/cncfjalandhar",
-        "github": "https://community.cncf.io/cloud-native-jalandhar/"
+        "links": "https://community.cncf.io/cloud-native-jalandhar/"
+    },
+    {
+        "name": "Vulncon",
+        "img": "/cp-vulncon.jpeg",
+        "linkedin": "https://in.linkedin.com/company/vulncon",
+        "links": "https://vulncon.in/"
     }
 ]

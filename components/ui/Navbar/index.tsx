@@ -21,9 +21,15 @@ const Navbar = () => {
                         <div className="relative flex h-16 items-center justify-between w-full">
                             <div className="flex items-center px-2 lg:px-0 w-full">
                                 <div className="shrink-0">
-                                    <h1 className="text-3xl font-bold">
+                                    <img
+                                        src="/logo.png"
+                                        alt="RCS CTF Logo"
+                                        className="h-24"
+                                    />
+                                    {/* <h1 className="text-3xl font-bold">
                                         RCS CTF 2024
-                                    </h1>
+                                    </h1> */}
+                                    
                                 </div>
                                 <div className="hidden lg:ml-auto lg:block">
                                     <div className="flex space-x-4">

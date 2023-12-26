@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, GitHub } from 'react-feather';
+import { Linkedin, Globe } from 'react-feather';
 import communityPartners from "@/config/communitypartners.json";
 
 function CommunityPartners() {
@@ -21,8 +21,8 @@ function CommunityPartners() {
                             <a href={member.linkedin}>
                                 <Linkedin width={28} height={28} />
                             </a>
-                            <a href={member.github}>
-                                <GitHub width={28} height={28} />
+                            <a href={member.links}>
+                                <Globe width={28} height={28} />
                             </a>
                         </div>
                     </div>
