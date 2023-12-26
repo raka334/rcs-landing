@@ -1,5 +1,6 @@
 import React from 'react'
-import { Twitter, Instagram, Facebook } from 'react-feather'
+import { Twitter, Instagram, Facebook, GitHub } from 'react-feather'
+import { Discord, Whatsapp } from '@/components/ui/Icons'
 
 const FooterSection: React.FC = () => {
     return (
@@ -9,21 +10,39 @@ const FooterSection: React.FC = () => {
                 <div className="icons flex items-center gap-5">
                     <a
                         className="rounded-full border-2 border-white p-2"
-                        href="https://example.com"
+                        href="https://s.encryptedge.in/fb"
                     >
                         <Facebook height={30} width={30} />
                     </a>
                     <a
                         className="rounded-full border-2 border-white p-2"
-                        href="https://example.com"
+                        href="https://s.encryptedge.in/ig"
                     >
                         <Instagram height={30} width={30} />
                     </a>
                     <a
                         className="rounded-full border-2 border-white p-2"
-                        href="https://example.com"
+                        href="https://s.encryptedge.in/x"
                     >
                         <Twitter height={30} width={30} />
+                    </a>
+                    <a
+                        className="rounded-full border-2 border-white p-2"
+                        href="https://s.encryptedge.in/dc"
+                    >
+                        <Discord height={30} width={30} />
+                    </a>
+                    <a
+                        className="rounded-full border-2 border-white p-2"
+                        href="https://s.encryptedge.in/wc"
+                    >
+                        <Whatsapp height={30} width={30} />
+                    </a>
+                    <a
+                        className="rounded-full border-2 border-white p-2"
+                        href="https://s.encryptedge.in/gh"
+                    >
+                        <GitHub height={30} width={30} />
                     </a>
                 </div>
             </div>
@@ -34,9 +53,9 @@ const FooterSection: React.FC = () => {
                     Mail us at:{' '}
                     <a
                         className="text-primary"
-                        href="mailto:contact@example.com"
+                        href="mailto:rcs24@encryptedge.in"
                     >
-                        contact@example.com
+                        rcs24@encryptedge.in
                     </a>
                 </p>
             </div>

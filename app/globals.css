@@ -37,3 +37,25 @@
 .glitch {
     font-family: "Glitch";
 }
+
+.venue-back {
+    background-image: url("/wow-back.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rcs-back-1 {
+    background-image: url("/rcs-back1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rcs-back-2 {
+    background-image: url("/rcs-back2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
