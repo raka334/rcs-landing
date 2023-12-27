@@ -36,7 +36,7 @@ function TicketCard({
                     toast.success('LPU Student Pass Selected', {
                         position: 'top-right',
                     });
-                }}>Coming Soon</Button>
+                }} className='bg-red-950'>Rs. 200</Button>
             </div>
         </div>
     )

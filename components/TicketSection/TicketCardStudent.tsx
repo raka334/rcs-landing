@@ -35,7 +35,7 @@ function TicketCard({
                     toast.success('Standard Pass Selected', {
                         position: 'top-right',
                     });
-                }}>Coming Soon</Button>
+                }} className='bg-red-950'>Rs. 300</Button>
           </div>
       </div>
   )
