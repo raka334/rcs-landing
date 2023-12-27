@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
 import Navbar from '@/components/ui/Navbar'
 import FooterSection from '@/components/FooterSection'
+import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
     title: 'RCS CTF 2024',
@@ -64,6 +65,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 {children}
                 <FooterSection />
                 <Analytics />
+                <Toaster />
                 {/* <RegisterDialog /> */}
             </body>
         </html>
