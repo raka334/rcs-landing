@@ -1,24 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project configured with [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/) created by [Brag Club](https://github.com/brag-club)
+[![Contributors][contributors-shield]][contributors-url]
+
+# RCS Landing
+
+## Description
+
+This is the landing page for the RCSCTF24 website.
 
 ## Getting Started
 
-First, run the development server:
+### Installing
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+* ![Nodejs]
+* ![Yarn]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Frameworks
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* ![Next.js]
+* ![React.js]
+* ![TailwindCSS]
 
-## Learn More
+### License
 
--   Next.js: https://nextjs.org/docs
--   TypeScript: https://www.typescriptlang.org/docs
--   Tailwind CSS: https://tailwindcss.com/docs
--   ESLint: https://eslint.org/docs/user-guide/getting-started
+This project is licensed via Apache License
+
+[contributors-shield]: https://img.shields.io/github/contributors/encryptedge/rcs-landing.svg?style=for-the-badge
+[contributors-url]: https://github.com/encryptedge/rcs-landing/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/encryptedge/rcs-landing.svg?style=for-the-badge
+[forks-url]: https://github.com/encryptedge/rcs-landing/network/members
+[issues-shield]: https://img.shields.io/github/issues/encryptedge/rcs-landing.svg?style=for-the-badge
+[issues-url]: https://github.com/encryptedge/rcs-landing/issues
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[TailwindCSS]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Yarn]: https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white
+[Nodejs]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
