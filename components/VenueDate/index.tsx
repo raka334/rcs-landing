@@ -14,7 +14,7 @@ function VenueDate() {
                     <p className="mb-3 text-3xl text-primary font-medium">
                         Time
                     </p>
-                    <p className="text-6xl font-bold">2PM</p>
+                    <p className="text-6xl font-bold">12 PM</p>
                 </div>
                 <div className="item">
                     <p className="mb-3 text-3xl text-primary font-medium">
