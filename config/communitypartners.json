@@ -1,5 +1,11 @@
 [
     {
+        "name": "Vulncon",
+        "img": "/cp-vulncon.jpeg",
+        "linkedin": "https://in.linkedin.com/company/vulncon",
+        "links": "https://vulncon.in/"
+    },
+    {
         "name": "GDSC LPU",
         "img": "/cp-gdsc-lpu.png",
         "linkedin": "https://in.linkedin.com/company/gdsclpu",
@@ -18,9 +24,9 @@
         "links": "https://community.cncf.io/cloud-native-jalandhar/"
     },
     {
-        "name": "Vulncon",
-        "img": "/cp-vulncon.jpeg",
-        "linkedin": "https://in.linkedin.com/company/vulncon",
-        "links": "https://vulncon.in/"
+        "name": "GDSC IKGPTU",
+        "img": "/cp-gdsc-ikgptu.png",
+        "linkedin": "https://in.linkedin.com/company/gdsc-ikgptu",
+        "github": "https://github.com/GDSC-IKGPTU"
     }
 ]

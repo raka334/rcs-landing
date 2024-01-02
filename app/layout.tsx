@@ -1,11 +1,10 @@
-import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/react';
  
 import './globals.css'
 import Navbar from '@/components/ui/Navbar'
 import FooterSection from '@/components/FooterSection'
-
-const inter = Inter({ subsets: ['latin'] })
+import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
     title: 'RCS CTF 2024',
@@ -61,10 +60,13 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <html lang="en">
-            <body className={`${inter.className} text-text bg-background`}>
+            <body className={`text-text bg-background`}>
                 <Navbar />
                 {children}
                 <FooterSection />
+                <Analytics />
+                <Toaster />
+                {/* <RegisterDialog /> */}
             </body>
         </html>
     )

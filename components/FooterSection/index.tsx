@@ -4,10 +4,10 @@ import { Discord, Whatsapp } from '@/components/ui/Icons'
 
 const FooterSection: React.FC = () => {
     return (
-        <footer className="flex flex-col md:flex-row items-center justify-between w-screen p-10 max-w-7xl mx-auto px-4 lg:px-8">
+        <footer className="flex gap-5 flex-col md:flex-row items-center justify-between w-screen p-10 max-w-7xl mx-auto px-4 lg:px-8">
             <div>
                 <p className="text-3xl mb-3">Follow Us:</p>
-                <div className="icons flex items-center gap-5">
+                <div className="icons flex flex-wrap max-w-full items-center gap-5">
                     <a
                         className="rounded-full border-2 border-white p-2"
                         href="https://s.encryptedge.in/fb"
@@ -46,7 +46,7 @@ const FooterSection: React.FC = () => {
                     </a>
                 </div>
             </div>
-            <div className="contact-us text-right">
+            <div className="contact-us lg:text-right">
                 {/* Add your contact email here */}
                 <p className="text-3xl font-bold">Queries</p>
                 <p className="text-3xl">
