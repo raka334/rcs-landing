@@ -3,7 +3,7 @@ import Button from '../ui/Button'
 
 function TicketCard() {
   return (
-      <div className="card w-full max-w-sm bg-white text-black p-5">
+      <div className="card w-full max-w-sm bg-white text-black p-5 rounded-lg">
           <p className="font-bold text-4xl">
               Student Pass
           </p>
