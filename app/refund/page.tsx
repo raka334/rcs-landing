@@ -3,8 +3,8 @@ import axios from 'axios'
 import React from 'react'
 import { promises as fs } from 'fs'
 
-async function Cus() {
-    const file = await fs.readFile(process.cwd() + '/public/cus.txt', 'utf8')
+async function Refund() {
+    const file = await fs.readFile(process.cwd() + '/public/refund.txt', 'utf8')
     return (
         <div className='max-w-7xl mx-auto pt-40'>
             <Markdown markdown={file} />
@@ -12,4 +12,4 @@ async function Cus() {
     )
 }
 
-export default Cus
+export default Refund

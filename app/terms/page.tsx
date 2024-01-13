@@ -3,13 +3,13 @@ import axios from 'axios'
 import React from 'react'
 import { promises as fs } from 'fs'
 
-async function Crp() {
-    const file = await fs.readFile(process.cwd() + '/public/crp.txt', 'utf8')
+async function Terms() {
+    const file = await fs.readFile(process.cwd() + '/public/terms.txt', 'utf8')
     return (
-        <div className='max-w-7xl mx-auto pt-40'>
+        <div className="max-w-7xl mx-auto pt-40">
             <Markdown markdown={file} />
         </div>
     )
 }
 
-export default Crp
+export default Terms
