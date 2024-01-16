@@ -15,9 +15,9 @@ function TicketCard() {
           <div className="mt-8 text-lg">
               <p className="text-primary">Includes: </p>
               <div className="flex flex-col gap-2">
-                    <p> - Welcome Kit Includes: 1 x Notepad-Pen, 1 x ID-Lanyard, Stickers</p>
+                    <p> - 1 x ID-Lanyard</p>
                     <p> - Access to CTF</p>
-                    <p> - Lunch, Dinner & Snacks</p>
+                    <p> - 2 x Meals Provided</p>
                     <p> - Complimentry Swags</p>
                     <p> - Conference Attendee Certificate</p>
               </div>
