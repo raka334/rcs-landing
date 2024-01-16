@@ -79,7 +79,7 @@ const Navbar = () => {
                                                     setRegisterOpen(true)
                                                 }
                                             >
-                                                Register Interest
+                                                Register
                                             </a>
                                         </div>
                                     </div>

@@ -16,7 +16,7 @@ function TicketCard() {
               <div className="flex flex-col gap-2">
                     <p> - Welcome Kit Includes: 1 x Notepad-Pen, 1 x ID-Lanyard, Stickers</p>
                     <p> - Access to CTF</p>
-                    <p> - Breakfast, Lunch, Dinner & Snacks</p>
+                    <p> - Lunch, Dinner & Snacks</p>
                     <p> - Complimentry Swags</p>
                     <p> - Conference Attendee Certificate</p>
               </div>
