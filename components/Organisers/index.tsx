@@ -8,7 +8,7 @@ function Organisers() {
                     <div key="ee" className="flex flex-col items-center lg:px-5">
                         <div className="w-full border-primary border-2 overflow-hidden">
                           <a href='https://fyp.bio/encryptedge'>  <img
-                                src="/ee.jpg"
+                                src="/ee.webp"
                                 alt=""
                                 className="w-full h-full object-cover"
                             />
