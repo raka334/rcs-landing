@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from '../ui/Button'
-import toast from 'react-hot-toast'
 import { useRouter } from 'next/navigation'
 
 function TicketCard({
@@ -27,7 +26,7 @@ function TicketCard({
                         Stickers
                     </p>
                     <p> - Access to CTF</p>
-                    <p> - Breakfast, Lunch, Dinner & Snacks</p>
+                    <p> - 2 x Meals Provided</p>
                     <p> - Complimentry Swags</p>
                     <p> - Conference Attendee Certificate</p>
                 </div>

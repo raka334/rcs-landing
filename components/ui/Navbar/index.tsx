@@ -73,13 +73,13 @@ const Navbar = () => {
                                             <a
                                                 href={'#'}
                                                 className={
-                                                    'px-3 py-2 text-xl flex items-center gap-2 bg-white text-black hover:bg-black hover:text-white hover:border-white hover:ring-1 hover:ring-white focus:ring-1 focus:ring-white'
+                                                    'px-3 py-2 text-xl flex items-center gap-2 bg-white text-black hover:bg-black hover:text-white hover:border-white hover:ring-1 hover:ring-white focus:ring-1 focus:ring-white hover:rounded-md transition duration-150 ease-in-out'
                                                 }
                                                 onClick={() =>
                                                     setRegisterOpen(true)
                                                 }
                                             >
-                                                Register Interest
+                                                Register
                                             </a>
                                         </div>
                                     </div>

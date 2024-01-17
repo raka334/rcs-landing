@@ -29,9 +29,10 @@ function TicketCard({
                         Stickers
                     </p>
                     <p> - Access to CTF</p>
-                    <p> - Breakfast, Lunch, Dinner & Snacks</p>
+                    <p> - 2 x Meals Provided</p>
                     <p> - Complimentry Swags</p>
                     <p> - Conference Attendee Certificate</p>
+<<<<<<< HEAD
                 </div>
             </div>
             <div className="button mt-8">
@@ -49,6 +50,15 @@ function TicketCard({
             </div>
         </div>
     )
+=======
+              </div>
+          </div>
+          <div className="button mt-8 bg-primary">
+              <Button size={'full'} >Coming Soon</Button>
+          </div>
+      </div>
+  )
+>>>>>>> f1d45627580b98e6969567d25a9e94c86d56d779
 }
 
 export default TicketCard

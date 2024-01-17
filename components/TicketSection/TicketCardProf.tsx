@@ -3,6 +3,7 @@ import Button from '../ui/Button'
 import toast from 'react-hot-toast'
 import { useRouter } from 'next/navigation'
 
+<<<<<<< HEAD
 function TicketCard({
     setTicketType,
     setTicketBookingOpen,
@@ -26,8 +27,24 @@ function TicketCard({
                         - Welcome Kit Includes: 1 x Notepad-Pen, 1 x ID-Lanyard,
                         Stickers
                     </p>
+=======
+function TicketCard() {
+  return (
+      <div className="card w-full max-w-sm bg-white text-black p-5 rounded-lg">
+          <p className="font-bold text-4xl">
+            Professional Pass
+          </p>
+          <p className="mt-8 text-lg">
+            For working professionals and students from other colleges.
+          </p>
+
+          <div className="mt-8 text-lg">
+              <p className="text-primary">Includes: </p>
+              <div className="flex flex-col gap-2">
+                    <p> - 1 x ID-Lanyard</p>
+>>>>>>> f1d45627580b98e6969567d25a9e94c86d56d779
                     <p> - Access to CTF</p>
-                    <p> - Breakfast, Lunch, Dinner & Snacks</p>
+                    <p> - 2 x Meals Provided</p>
                     <p> - Complimentry Swags</p>
                     <p> - Conference Attendee Certificate</p>
                 </div>
