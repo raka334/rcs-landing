@@ -49,18 +49,16 @@ export default function Home() {
                                 <span className="">Read Blog</span>
                             </div>
                         </a>
-                        <button onClick={() =>
-                             setRegisterOpen(true)
-                        }>
+                        <a href="#ticketSection" className="">
                             <div className="flex text-white font-bold hover:bg-white hover:text-black hover:border-white hover:ring-1 hover:ring-white focus:ring-1 focus:ring-white">
                                 <PlusCircleIcon
                                     height={30}
                                     width={30}
                                     className=""
                                 />{' '}
-                                <span className="">Register Interest</span>
+                                <span className="">Get Passes</span>
                             </div>
-                        </button>
+                        </a>
                     </div>
                     <div className="date hidden lg:block absolute top-80 right-0 rotate-90">
                         <p className="text-6xl text-primary font-bold tracking-[1.5rem]">
