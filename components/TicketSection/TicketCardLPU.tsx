@@ -26,7 +26,7 @@ function TicketCard({
                     <p className="text-primary">Includes: </p>
                     <div className="flex flex-col gap-2">
                         <p>
-                            - Welcome Kit Includes: 1 x Notepad-Pen, 1 x ID-Lanyard,
+                            - Welcome Kit Includes: 1 x ID-Lanyard,
                             Stickers
                         </p>
                         <p> - Access to CTF</p>
