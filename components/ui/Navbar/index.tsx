@@ -130,13 +130,13 @@ const Navbar = () => {
                                 ))}
                                 <Disclosure.Button
                                     as="a"
-                                    href="#"
+                                    href="#ticketSection"
                                     className={cn(
                                         'block px-3 py-2 text-base font-medium bg-white text-black'
                                     )}
-                                    onClick={() => setRegisterOpen(true)}
+                                    onClick={() => setRegisterOpen(false)}
                                 >
-                                    Register
+                                    Get passes
                                 </Disclosure.Button>
                             </div>
                         </Disclosure.Panel>
