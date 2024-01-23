@@ -92,7 +92,7 @@ export default function Home() {
             <PerksSection />
             <VenueDate />
             <TicketSection />
-            {/* <SponsorSection /> */}
+            <SponsorSection />
             <CoreTeam />
             <RersourcePersons />
             <CommunityPartners />

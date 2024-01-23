@@ -2,17 +2,16 @@
   {
     "category": "Platinum Sponsors",
     "sponsors": [
-      { "name": "Popsicle", "logo": "./popsql.png", "url": "https://popsql.com" },
-      { "name": "More Popsicles", "logo": "./popsql.png", "url": "https://popsql.com" },
-      { "name": "Even More Popsicles", "logo": "./popsql.png", "url": "https://popsql.com" }
+      { "name": "EC-Council", "logo": "./EC-Council.png", "url": "https://www.eccouncil.org/" },
+      { "name": "Quick Heal", "logo": "./Quick Heal.png", "url": "https://www.quickheal.co.in/" }
     ]
   },
   {
     "category": "Gold Sponsors",
     "sponsors": [
-      { "name": "Pppp Popsicles!", "logo": "./popsql.png", "url": "https://popsql.com" },
-      { "name": "Popsicles!!!!", "logo": "./popsql.png", "url": "https://popsql.com" },
-      { "name": "Nevermind, it's PopSQL", "logo": "./popsql.png", "url": "https://popsql.com" }
+      { "name": "Secure Hack", "logo": "./Secure Hack.png", "url": "https://www.securehack.net/" },
+      { "name": "Crack Soft", "logo": "./Crack Soft.png", "url": "#" },
+      { "name": "xyz", "logo": "./xyz.png", "url": "https://gen.xyz/" }
     ]
   }
 ]
