@@ -42,6 +42,7 @@ function TicketCard({
                             )
                         }}
                         className="bg-red-950"
+                        disabled
                     >
                         Registrations are Closed
                     </Button>

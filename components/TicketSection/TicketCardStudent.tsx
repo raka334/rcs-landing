@@ -40,6 +40,7 @@ function TicketCard({
                                 `${process.env.NEXT_PUBLIC_PAYMENT_WEBSITE}/standard_pass`
                             )
                         }}
+                        disabled
                         className="bg-red-950"
                     >
                         Registrations are Closed
