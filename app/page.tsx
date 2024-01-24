@@ -6,7 +6,7 @@ import PerksSection from '@/components/PerksSection'
 import RersourcePersons from '@/components/ResourcePersons'
 import TicketSection from '@/components/TicketSection'
 import VenueDate from '@/components/VenueDate'
-import { PlayCircleIcon, PlusCircleIcon } from '@heroicons/react/24/outline'
+import { PlayCircleIcon, TicketIcon, ArrowUpCircleIcon } from '@heroicons/react/24/outline'
 import Organisers from '@/components/Organisers'
 import RegisterDialog from '@/components/RegisterDialog'
 import { useState } from 'react'
@@ -44,23 +44,31 @@ export default function Home() {
                                 <PlayCircleIcon
                                     height={30}
                                     width={30}
-                                    className=""
+                                    className="me-1"
                                 />{' '}
                                 <span className="">Read Blog</span>
                             </div>
                         </a>
-                        <button onClick={() =>
-                             setRegisterOpen(true)
-                        }>
+                        <a href="#ticketSection" className="">
                             <div className="flex text-white font-bold hover:bg-white hover:text-black hover:border-white hover:ring-1 hover:ring-white focus:ring-1 focus:ring-white">
-                                <PlusCircleIcon
+                                <TicketIcon
                                     height={30}
                                     width={30}
-                                    className=""
+                                    className="me-1"
                                 />{' '}
-                                <span className="">Register Interest</span>
+                                <span className="">Get Passes</span>
                             </div>
-                        </button>
+                        </a>
+                        <a href="https://chat.whatsapp.com/Kdzl9jmcE4f2RiPcKhxguE" target='__blank' className="">
+                            <div className="flex text-white font-bold hover:bg-white hover:text-black hover:border-white hover:ring-1 hover:ring-white focus:ring-1 focus:ring-white">
+                                <ArrowUpCircleIcon
+                                    height={30}
+                                    width={30}
+                                    className="me-1"
+                                />{' '}
+                                <span className="">Questions?</span>
+                            </div>
+                        </a>
                     </div>
                     <div className="date hidden lg:block absolute top-80 right-0 rotate-90">
                         <p className="text-6xl text-primary font-bold tracking-[1.5rem]">
@@ -84,7 +92,7 @@ export default function Home() {
             <PerksSection />
             <VenueDate />
             <TicketSection />
-            {/* <SponsorSection /> */}
+            <SponsorSection />
             <CoreTeam />
             <RersourcePersons />
             <CommunityPartners />
