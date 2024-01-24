@@ -33,6 +33,12 @@
         "name": "GDSC IKGPTU",
         "img": "/cp-gdsc-ikgptu.webp",
         "linkedin": "https://in.linkedin.com/company/gdsc-ikgptu",
-        "github": "https://github.com/GDSC-IKGPTU"
+        "links": "https://github.com/GDSC-IKGPTU"
+    },
+    { 
+        "name": "Crack Soft",
+        "img": "./Crack Soft.png",
+        "links": "https://cracksoftsecurities.org/",
+        "linkedin": "https://www.linkedin.com/company/cracksoftsecurtities"
     }
 ]

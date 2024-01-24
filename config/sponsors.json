@@ -10,7 +10,6 @@
     "category": "Gold Sponsors",
     "sponsors": [
       { "name": "Secure Hack", "logo": "./Secure Hack.png", "url": "https://www.securehack.net/" },
-      { "name": "Crack Soft", "logo": "./Crack Soft.png", "url": "#" },
       { "name": "xyz", "logo": "./xyz.png", "url": "https://gen.xyz/" }
     ]
   }
