@@ -42,7 +42,7 @@ function TicketCard({
                         }}
                         className="bg-red-950"
                     >
-                        Rs. 350
+                        Registrations are Closed
                     </Button>
                 </div>
             </div>
